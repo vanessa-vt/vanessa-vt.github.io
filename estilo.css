@@ -1,0 +1,462 @@
+html, body{
+	margin: 0;
+	font-family: 'Nunito';
+	/*text-align: justify;*/
+	line-height: 1.75;
+}
+a{
+	cursor: pointer;
+}
+#botaoSubir{
+	width: 55px;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	visibility: hidden;
+	border-radius: 7px;
+}
+/* Header e menu */
+#header{
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+#logo{
+	height: 60px;
+	position: absolute;
+	margin-left: 5%;
+}
+#menu{
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#menu li{
+	float: left;
+	padding: 20 20 16 20;
+}
+#menu li:hover{
+	font-weight: bolder;
+	font-size: 18px;
+}
+#menu a{
+	text-decoration: none;
+	color: white;
+}
+label[for="botaoMenu"]{
+	padding: 5px;
+	background-color: transparent;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	display: none;
+	cursor: pointer;
+}
+#botaoMenu{
+	display: none;
+}
+/* capa */
+#imagem_fundo{
+	background: url(gifs/folhasVerdes.gif);
+	background-size: 100% 100%;
+	height: 100%;
+	text-align: center;
+}
+#titulo{
+	color: white;
+	padding-top: 18%;
+	font-size: 70px;
+	font-family: 'Poiret One';
+	letter-spacing: 15px;
+	margin-bottom: 0;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#subtitulo{
+	color: white;
+	font-family: 'Amatic SC';
+	font-size: 40px;
+	letter-spacing: 5px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#botaoComecar{
+	text-decoration: none;
+	color: white;
+	border: 1px white solid;
+	border-radius: 10px;
+	padding: 10px 20px 10px 20px;
+}
+#botaoComecar:hover{
+	background-color: rgba(4, 71, 36, 0.9);
+}
+.tracoInicial{
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 0;
+}
+/*seções*/
+section{
+	float: left;
+	padding: 50 50 0 50;
+	color: #5b5c5b;
+	background-color: #F8F9FA;
+}
+a{
+	text-decoration: none;
+	color: #404040;
+}
+section h2{
+	text-align: center;
+	color: #111211;
+	background-color: white;
+	box-shadow: 10px 5px 30px #c2c2c2;
+	border-radius: 3px;
+	font-family: 'Poiret One';
+	font-size: 35px;
+	margin-bottom: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-weight: lighter;
+}
+section hr{
+	width: 40px;
+}
+h3{
+	text-align: center;
+	color: #111211;
+	margin-bottom: 0;
+	font-family: 'Amatic SC';
+	font-size: 35px;
+	font-weight: lighter;
+}
+button{
+	padding: 20 30;
+	color: white;
+	border-radius: 5px;
+	background-color: #4C928C;
+	font-family: 'Nunito';
+	letter-spacing: 3px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.padding10{
+	padding: 10px;
+}
+.clear{
+	clear: both
+}
+.coluna{
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.duas{
+	width: 45%;
+}
+.tres{
+	width: 39%;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 10px 5px 40px #c2c2c2;
+	padding: 0;
+	margin-bottom: 30px;
+}
+.icone{
+	height: 30px;
+}
+.iconeAumenta{
+	height: 30px;
+	padding-right: 150px;
+}
+.iconeAumenta:hover{
+	height: 35px;
+}
+.marginNegativa{
+	display: inline;
+	margin-left: -140px;
+}
+footer{
+	background-color: #044724;
+	color: white;
+	float: left;
+	margin-bottom: 0;
+	width: 100%;
+}
+footer hr{
+	width: 30%;
+}
+.tituloFooter{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+.caixaFooter{
+	text-align: center;
+	background-color: white;
+	color: #404040;
+	margin: 2%;
+	width: 25%;
+	padding: 2%;
+	border-radius: 5px;
+	border-bottom: 3px #4C928C solid;
+}
+.iconeFooter{
+	width: 20px;
+}
+/*introdução*/
+.imgOds{
+	width: 40%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 4px black double;
+}
+.imgLogo{
+	float: left;
+	width: 30%;
+}
+.imgCamaleao{
+	width: 90%;
+	margin-top: 5%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+/*descartáveis*/
+#exibirCuriosidadesPlastico{
+	border-radius: 5px;
+	border: 1px gray solid;
+	float: left;
+	background-color: white;
+	padding-bottom: 10px;
+	margin: 10px;
+}
+.imgCuriosidadesDescartaveis{
+	border-radius: 5px;
+	width: 100%;
+}
+.imgDescartaveis{
+	width: 100%;
+	border-radius: 10px;
+}
+.troquePor{
+	width: 20%;
+	height: 50%;
+	float: left;
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	display: table;
+}
+.alinharMeio{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+#descartaveis hr{
+	width: 80px;
+	clear: both;
+	margin-bottom: 20px;
+}
+.alinharMeioDiv{
+	width: 90%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+.alinharTextoMeio{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+/*recicláveis*/
+#reciclaveis p{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#exibirCuriosidades{
+	border-radius: 5px;
+	border: 1px gray solid;
+	float: left;
+	background-color: white;
+	padding-bottom: 10px;
+	margin: 10px;
+}
+.imgCoresReciclaveis{
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+/*adubo*/
+#adubo p{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#adubo img{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.imgComposteira{
+	width: 42%
+}
+.imgOquePodeIr{
+	width: 49%;
+	margin-bottom: 10px;
+}
+.textoChorume{
+	width: 49%;
+	margin-left: 2%;
+}
+.imgRegador{
+	padding-top: 10px;
+	width: 35%;
+}
+/*coleta seletiva*/
+.imgLixoReciclavelUmido{
+	width: 70%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.botaoColeta{
+	clear: both;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+.tabela{
+	border-color: gray;
+	border-radius: 5px;
+}
+tr{
+	text-align: center;
+	margin:0;
+}
+td, th{
+	padding: 5px;
+}
+.corCelulaTabela{
+	background-color: rgba(93, 222, 179, 0.2);
+}
+.botaoPEV{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+.tresMapa{
+	width: 28%;
+	margin-top: 10px;
+}
+/* configurações para telas menores que 1125 */
+@media all and (max-width: 1125px){
+	#menu li{
+		float: none;
+		padding-top: 5px;
+		padding-bottom: 0;
+		padding-left: 5px;
+		width: 200px;
+	}
+	#menu a{
+		color: black;
+		background-color: white;
+		border-radius: 30px;
+		border: 2px #044724 solid;
+		margin-top: 0;
+		padding: 5px;
+		display: inline-block;
+		width: 150px;
+		text-align: center;
+	}
+	#menu{
+		float: none;
+		display: none;
+		clear: both;
+		transition: all .4s;
+	}
+	#botaoMenu:checked ~ #menu{
+		display: block;
+	}
+	label[for="botaoMenu"]{
+		display: block;
+		float: left;
+	}
+	#divLogo{
+		width: 100%
+		padding: 0;
+		text-align: center;
+	}
+	#logo{
+		margin-left: 0;
+		transform: translateX(-50%); 
+	}
+	#titulo{
+		font-size: 50px;
+	}
+	#subtitulo{
+		font-size: 30px;
+	}
+	section{
+		padding: 20 20 0 20;
+	}
+	section h2{
+		font-size: 28px;
+	}
+	section h3{
+		font-size: 30px;
+	}
+	.padding10{
+		padding: 0;
+	}
+	.coluna, .duas, .tres, .tresMapa{
+		display: block;
+		width: 100%;
+		margin: auto;
+		padding-left: 0px;
+		padding-right: 0px;
+		float: none;
+	}
+	.imgCuriosidadesDescartaveis{
+		width: 90%;
+		margin: 10px;
+	}
+	.troquePor{
+		float: none;
+		margin: auto;
+		height: 30%;
+	}
+	.textoChorume{
+		margin: 0px;
+		padding: 0px;
+	}
+	#adubo p{
+		padding: 0px;
+	}
+	footer{
+		padding-top: 30px;
+	}
+	.caixaFooter{
+		margin: 3% auto;
+		padding-top: 20px;
+	}
+}
+/* configurações para telas menores que 768 */
+@media all and (max-width: 768px){
+	#titulo{
+		padding-top: 35%;
+	}
+}

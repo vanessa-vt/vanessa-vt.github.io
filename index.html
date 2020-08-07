@@ -1,0 +1,1205 @@
+<html>
+<head>
+	<title>Camalia | O que você pode mudar hoje?</title>
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="shortcut icon" href="imagens/logoIcone.ico" type="imagem/x-icon" />
+	<!-- Fontes importadas do Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- script para fazer o menu mudar quando desce a tela -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		jQuery(function () {
+		 jQuery(window).scroll(function () {
+		  if (jQuery(this).scrollTop() < 400) {
+		   $("#header").css('background-color', 'transparent');
+		   $("#header").css('border-bottom', '0px #044724 solid');
+		   if(window.innerWidth > 1125 ){
+			   $("#menu a").css('color', 'white');
+			}
+		   $("#botaoSubir").css('visibility', 'hidden');
+		   $("#label").css('color', 'white');
+		  } else {
+		   $("#header").css('background-color', 'white');
+		   $("#header").css('border-bottom', '2px #044724 solid');
+		   $("#menu a").css('color', 'black');
+		   $("#botaoSubir").css('visibility', 'visible');
+		   $("#label").css('color', 'black');
+		  }
+		 });
+		});
+	</script>
+</head>
+<body>
+
+	<!-- menu -->
+	<header id="header">
+		<div id="divLogo">
+			<a href="#imagem_fundo"><img id="logo" src="imagens/logo.png" alt="Logo Camaleão"></a>
+		</div>
+		<input type="checkbox" id="botaoMenu">
+		<label id="label" for="botaoMenu">&#9776;</label>
+		<ul id="menu">
+			<li><a href="#introducao" onclick="document.getElementById('botaoMenu').checked=false">Introdução</a></li>
+			<li><a href="#descartaveis" onclick="document.getElementById('botaoMenu').checked=false">Descartáveis</a></li>
+			<li><a href="#reciclaveis" onclick="document.getElementById('botaoMenu').checked=false">Recicláveis</a></li>
+			<li><a href="#adubo" onclick="document.getElementById('botaoMenu').checked=false">Adubo</a></li>
+			<li><a href="#coletaSeletiva" onclick="document.getElementById('botaoMenu').checked=false">Coleta Seletiva</a></li>
+			<li><a href="#descarteOleo" onclick="document.getElementById('botaoMenu').checked=false">Descarte de Óleo</a></li>
+			<li><a href="#denuncia" onclick="document.getElementById('botaoMenu').checked=false">Denúncia</a></li>
+			<li><a href="#adocao" onclick="document.getElementById('botaoMenu').checked=false">Adoção</a></li>
+		</ul>
+	</header>
+
+	<!-- capa -->
+	<div id="imagem_fundo">
+		<h1 id="titulo">Camalia</h1>
+		<hr class="tracoInicial">
+		<h2 id="subtitulo">O que você pode mudar hoje?</h2>
+		<a id="botaoComecar" href="#introducao">Comece agora</a>
+	</div>
+
+	<!-- botão que faz a tela voltar ao topo -->
+	<a href="#imagem_fundo"><img src="imagens/topo.png" id="botaoSubir" alt="botão subir"></a>
+
+	<!-- seção introdução -->
+	<section id="introducao">
+		<!-- texto sobre as ODS -->
+		<h2>O que são ODS?</h2>
+		<p class="padding10">Os Objetivos de Desenvolvimento Sustentável (ODS) são uma coleção de 17 metas globais, estabelecidas pela Assembleia Geral das Nações Unidas visando acabar com a pobreza, promover a prosperidade e o bem-estar para todos, proteger o meio ambiente e enfrentar as mudanças climáticas. Agora você pode estar se perguntando: "Interessante, mas o que eu tenho a ver com isso? Não sou líder de nenhum país." e a resposta é: nós, como cidadãos, podemos ajudar nessas metas e é esse o objetivo desse site. Aqui você vai encontrar maneiras de contribuir com a ODS 11 e 12, principalmente. Mas lembre-se, nós podemos contribuir com todas as ODS para tornar o mundo um lugar melhor! Não se limite!</p>
+		<p class="padding10" style="margin-bottom: 0; padding-bottom: 0">Vamos começar entendendo as ODS 11 e 12:</p>
+
+		<div class="duas coluna">
+			<h3>ODS 11</h3>
+			<hr>
+			<p>Cidades e comunidades sustentáveis: tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis. Os principais pontos que podemos contribuir:
+				<ul>
+					<li><b>11.4</b> Fortalecer esforços para proteger e salvaguardar o patrimônio cultural e natural do mundo</li>
+					<br>
+					<li><b>11.6</b> Até 2030, reduzir o impacto ambiental negativo per capita das cidades, inclusive prestando especial atenção à qualidade do ar, gestão de resíduos municipais e outros</li>
+			    </ul>
+			</p>
+			<img class="imgOds" src="imagens/ods11.png" alt="logo ODS 11">
+		</div>
+
+		<div class="duas coluna">
+			<h3>ODS 12</h3> 
+			<hr>
+			<p>Consumo e produção responsáveis: assegurar padrões de produção e de consumo sustentáveis. Os principais pontos que podemos contribuir:
+				<ul>
+					<li><b>12.2</b> Até 2030, alcançar a gestão sustentável e o uso eficiente dos recursos naturais</li>
+					<li><b>12.5</b> Até 2030, reduzir substancialmente a geração de resíduos por meio da prevenção, redução, reciclagem e reuso</li>
+					<li><b>12.8</b> Até 2030, garantir que as pessoas, em todos os lugares, tenham informação relevante e conscientização para o desenvolvimento sustentável e estilos de vida em harmonia com a natureza</li>
+			    </ul>
+			</p>
+			<img class="imgOds" src="imagens/ods12.png" alt="ODS 12">
+		</div>
+
+		<hr>
+
+		<!-- explicando o porquê do nome -->
+		<h2 class="clear">Por que Camalia?</h2>
+		<div class="duas coluna">
+			<img class="imgLogo" src="imagens/logo.png" alt="Logo camaleão">
+			<p>Camalia vem de camaleão, que é o símbolo do projeto.</p>
+			<p>Muitas espécies de camaleão, assim como de outros animais, são consideradas ameaçadas de extinção e seu número tem declinado, provavelmente devido a alterações no seu habitat natural, como a poluição e o desmatamento. Nós podemos ajudar diminuindo a poluição e o intuito desse site é mostrar algumas maneiras de como isso pode ser feito.</p>
+			<p>Além disso, você sabia que os olhos dos camaleões têm um arco de 360 ​​graus de visão e podem enxergar em duas direções ao mesmo tempo? Nesse momento nós também precisamos "ter um olhar 360 graus" para poder perceber o estado de degradação em que o Planeta Terra se encaminha.</p>
+			<p>E por último, não é novidade que os camaleões conseguem mudar de cor. Eles fazem isso para se adaptar e poder se camuflar e alguns estudos mostraram que eles mudam de coloração de acordo com a luz, a temperatura ou mesmo o seu humor, podendo também ser uma forma de comunicação com seus semelhantes. Assim como eles, nós precisamos mudar nossas ações para nos adaptar a um mundo com qualidade de vida e sem tanta degradação da natureza.</p>
+			<p>Fonte: <a href="https://www.sobiologia.com.br/conteudos/Curiosidades/curiosidades_camaleao.php" target="_blanck">clique aqui</a>.</p>
+		</div>
+		<div class="duas coluna">
+			<img class="imgCamaleao" src="imagens/camaleao.jpg" alt="Camaleão">
+		</div>
+	</section>
+
+	<!-- seção para falar sobre produtos descartáveis -->
+	<section id="descartaveis">
+		<h2>Como substituir produtos descartáveis?</h2>
+		<p class="padding10">Antes de tudo é bom lembrar que não existe "fora" quando se "joga algo fora", seu lixo vai parar em um lugar que você não está vendo e isso não significa que não seja prejudicial. Muitos produtos que usamos hoje em dia são descartáveis depois de pouco tempo de uso e muitos deles são feitos de plástico, que demora muito para se decompor - aproximadamente 400 anos (exceto os de origem vegetal, mas eles não são usados em larga escala). A reciclagem é uma boa opção, mas ela nem sempre é feita. Pensando nisso, que tal evitar consumir produtos que tenham pouca durabilidade e optar por produtos reutilizáveis? Não é só o meio ambiente que vai agradecer, seu bolso também vai! Embora os produtos reutilizáveis pareçam mais caros de primeira, eles duram bem mais e acabam saindo mais barato, já que não é preciso ficar comprando sempre.</p>
+		<!-- botão que exibe as curiosidades -->
+		<button title="Clique para mostrar/ocultar curiosidades" type="button" onclick="if(document.getElementById('exibirCuriosidadesPlastico') .style.display=='none') {document.getElementById('exibirCuriosidadesPlastico') .style.display=''}else{document.getElementById('exibirCuriosidadesPlastico') .style.display='none'}">CURIOSIDADES</button>
+			<div id="exibirCuriosidadesPlastico" style="display:none">
+				<!-- botão fechar -->
+				<img src="imagens/fechar.svg" onclick="document.getElementById('exibirCuriosidadesPlastico') .style.display='none'" alt="fechar" style="width: 30px; padding-left: 10px; padding-top: 10px; cursor: pointer">
+				<p style="padding-left: 10px; padding-right: 10px">Um estudo (<a href="https://advances.sciencemag.org/content/3/7/e1700782" target="_blanck">clique aqui</a>) publicado na revista Science Advances, em julho de 2017, estimou que 8,9 bilhões de toneladas de plásticos primários e reciclados já foram fabricados desde meados do século passado, quando os plásticos começaram a ser produzidos em escala industrial, até 2017. Cerca de 30% desse total ainda está em uso, a maior parte em sua forma original e uma pequena parte como reciclado. Os pesquisadores também estimaram o que acontece com o plástico após o uso. Os números mostram que o índice de reciclagem ainda é baixo: 9% foram reciclados, 12% incinerados e 79% acabaram acumulados em aterros sanitários, lixões ou despejados no meio ambiente. A alta quantidade de plástico despejada no ambiente cria um problema sério de contaminação de algumas regiões e acúmulo de lixo. Quando acumulados nos oceanos criam as "Ilhas de Plástico" e já existem cinco ilhas, nas localizações da imagem:</p>
+				<div class="coluna duas">
+					<img class="imgCuriosidadesDescartaveis" src="imagens/ilhasDePlastico.jpg" alt="Ilhas de Plástico">
+				</div>
+				<div class="coluna duas">
+					<img class="imgCuriosidadesDescartaveis" src="imagens/ilhaDePlastico.jpg" alt="Ilha de Plástico">
+				</div>
+			</div>
+		<p class="padding10 clear">Você vai perceber que muitos materiais de plástico podem ser substituídos por materiais de silicone, isto porque os materiais de silicone duram mais enquanto estão em uso e são seguros para as pessoas e para o meio ambiente, já que o silicone é composto praticamente de silício combinado com oxígênio, carbono e hidrogênio. Agora, vamos ver como substituir alguns produtos no nosso dia a dia, lembrando que eles podem ser encontrados em lojas online e até mesmo no comércio de sua cidade:</p>
+
+		<!-- divs mostrando o que pode ser substituído -->
+		<div class="alinharMeioDiv">
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/absorventeDescartavel.jpg" alt="Absorvente descartável"><br>
+				<p class="alinharTextoMeio">Absorventes descartáveis são jogados fora logo após o uso. Em três anos é gasto aproximadamente R$450,00 e você deixará um rastro de aproximadamente 540 absorventes.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/coletorMenstrual.jpg" alt="Coletor Mentrual">
+				<p class="alinharTextoMeio">Os coletores menstruais de silicone duram de 3 a 10 anos. Um coletor custa em torno de R$80,00. Também existem absorventes de pano, que podem ser lavados e reutilizados.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/escovaDentePlastico.png" alt="Escova de dente de plástico"><br>
+				<p class="alinharTextoMeio">As escovas de dentes de plástico são trocadas a cada três meses e demoram mais de 400 anos para se decompor.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/escovaDenteBambu.png" alt="Escova de dente de Bambu"><br>
+				<p class="alinharTextoMeio">As escovas de dente de bambu também duram três meses, porém demoram apenas 30 anos para de decompor.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/esponjaPlastico.jpg" alt="Esponja de plástico"><br>
+				<p class="alinharTextoMeio">As esponjas de cozinha de plástico duram no máximo duas semanas e são de difícil reciclagem, logo acabam indo parar em aterros. Em 5 anos é gasto aproximadamente R$250,00.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/esponjaSilicone.png" alt="Esponja de silicone"><br>
+				<p class="alinharTextoMeio">As esponjas de silicone duram de 5 a 10 anos. Uma custa de torno de R$15,00. Também é possível trocar pela bucha vegetal, veja abaixo. Além disso, elas não riscam a louça.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/esponjaBanho.jpg" alt="Esponja de banho"><br>
+				<p class="alinharTextoMeio">As esponjas de banho de plástico devem ser trocadas a cada 1 mês. Elas também são de difícil reciclagem e acabam indo parar em aterros e nos mares. Seu custo benefício não compensa tanto, pois são mais caras, não duram tanto tempo em uso e são vendidas pequenas, não podendo ser divididas.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/buchaVegetal.jpg" alt="Bucha Vegetal"><br>
+				<p class="alinharTextoMeio">As buchas vegetais também duram 1 mês se usadas para tomar banho e até 2 meses se usadas para lavar louças. São biodegradáveis, pois são vegetais. Geralmente são mais baratas que as buchas de plástico, podendo até ser cortadas, já que muitas vezes são vendidas buchas grandes.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/canudoPlastico.jpg" alt="Canudos de Plástico"><br>
+				<p class="alinharTextoMeio">Canudos não são itens de necessidade, mas se deseja usá-los, opte pelos reutilizáveis. Canudos de plásticos são descartados logo após o uso e muitas vezes vão parar no mar.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/canudoReutilizavel.jpg" alt="Canudos Reutilizáveis"><br>
+				<p class="alinharTextoMeio">Os canudos reutilizáveis mais conhecidos são os de inox e de silicone, que duram vários anos. Também há canudos reutilizáveis de bambu, que duram menos, mas são biodegradáveis.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/sacolasPlasticas.jpg" alt="Sacolas Plásticas"><br>
+				<p class="alinharTextoMeio">As sacolas de plástico rasgam facilmente e geralmente são descartadas depois do uso.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/ecobags.jpg" alt="Ecobag"><br>
+				<p class="alinharTextoMeio">Ecobags são sacolas grandes e resistentes e podem ser usadas várias vezes.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/saquinhosPlasticos.png" alt="Saquinhos Plásticos"><br>
+				<p class="alinharTextoMeio">Os saquinhos plásticos usados para comprar frutas e legumes em supermercados são descartados rapidamente e só acumulam lixo plástico.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/redinhas.jpg" alt="Redinhas"><br>
+				<p class="alinharTextoMeio">As redinhas de tecido podem ser feitas em casa e substituem os saquinhos para fazer suas compras e podem ser usadas várias vezes.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/embalagemSC.jpg" alt="Embalagem de shampoo em condicionador"><br>
+				<p class="alinharTextoMeio">Você já pensou para onde vão as embalagens dos seus shampoos e condicionadores? Elas são de plástico e podem parar no mar.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/solidoSC.jpg" alt="Shamppo e Condicionador sólido"><br>
+				<p class="alinharTextoMeio">Os shampoos e condicionadores sólidos não necessitam de embalagem plástica e podem durar até duas vezes mais que os líquidos.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/cotonetePlastico.jpg" alt="Cotonetes de Plástico"><br>
+				<p class="alinharTextoMeio">Cotonetes também não são itens necessários no nosso dia a dia, mas se deseja usá-los, opte por uma versão mais sustentável. Os cotonetes de plástico são descartados logo após o uso e podem ir parar nos mares.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/cotoneteBambu.jpg" alt="Cotonetes de Bambu"><br>
+				<p class="alinharTextoMeio">Os cotonetes de bambu também são descartados após o uso, mas são biodegradáveis. Outra opção é enrolar um pouquinho de algodão em um palito de unha que faz o mesmo efeito de um cotonete e você descarta apenas o algodão.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/escovaCabeloPlastico.jpg" alt="Escova de Cabelo de Plástico"><br>
+				<p class="alinharTextoMeio">As escovas de cabelo de plástico duram bastante, mas demoram mais de 400 anos para se decompor quando descartadas.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/escovaCabeloBambu.jpg" alt="Escova de Cabelo de Bambu"><br>
+				<p class="alinharTextoMeio">As escovas de cabelo de bambu também duram bastante e demoram cerca de 30 anos para se decompor.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/saquinhoChupChupPlastico.jpg" alt="Saquinho ChupChup Plástico"><br>
+				<p class="alinharTextoMeio">Os saquinhos de chup-chup de plástico são descartados após o uso e podem parar no mar.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/saquinhoChupChupSilicone.png" alt="Saquinho ChupChup Silicone"><br>
+				<p class="alinharTextoMeio">As forminhas de chup-chup de silicone podem ser usadas por vários anos.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/sacosPlasticos.jpg" alt="Sacos Plástico"><br>
+				<p class="alinharTextoMeio">Os sacos plásticos costumam não ser muito resistentes e são trocados quando rasgam.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/sacosSilicone.png" alt="Sacos Silicone"><br>
+				<p class="alinharTextoMeio">Os sacos de silicone são resistentes e duram por vários anos.</p>
+			</div>
+
+			<br><hr><br>
+
+			<div class="tres coluna clear">
+				<img class="imgDescartaveis" src="imagens/copoPlastico.jpg" alt="Copos Plástico"><br>
+				<p class="alinharTextoMeio">Copos plásticos são descartados logo após o uso e contribuem para as ilhas de plástico.</p>
+			</div>
+			<div class="troquePor">
+				<div class="alinharMeio">
+					troque por
+				</div>
+			</div>
+			<div class="tres coluna">
+				<img class="imgDescartaveis" src="imagens/copoSilicone.jpg" alt="Copos Silicone"><br>
+				<p class="alinharTextoMeio">Copos de silicone retráteis cabem no seu bolso e podem ser usados por anos.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- classe sobre os produtos recicláveis -->
+	<section id="reciclaveis">
+		<h2>Como separar produtos recicláveis?</h2>
+		<img class="coluna duas" src="imagens/reciclagem.png" alt="reciclagem">
+		<div class="coluna duas">
+			<p>Os produtos descartáveis que você não conseguiu substituir por outros que duram mais devem ser separados corretamente, para evitar danos maiores ao meio ambiente. Grande parte dos resíduos sólidos gerados em casa pode ser reaproveitada e as vantagens da separação do lixo doméstico ficam cada vez mais evidentes. A reciclagem alivia os lixões e aterros sanitários, chegando até eles apenas os rejeitos (restos de resíduos que não podem ser reaproveitáveis) e economiza recursos naturais.</p>
+			<p>A primeira coisa a ser feita para começar a separação é não misturar os recicláveis com o lixo orgânico (sobras de alimentos, cascas de frutas e legumes - saiba mais na seção "Como fazer adubo?").</p>
+			<p>As embalagens sujas devem ser higienizadas. É indicado higienizar esses recipientes, economizando o máximo de água possível. Para isso, você pode deixar essa embalagem dentro da pia durante o dia, para que a água utilizada para lavar as mãos e a louça caia sobre ela, atuando como uma água reutilizada. Assim, ao final do dia, a embalagem estará limpa.</p>
+			<p>Depois de higienizadas, as embalagens devem ser divididas em papéis, plásticos, vidros e metais e colocadas em sacolas também recicláveis. Algumas dicas:</p>
+		</div>
+		<p class="clear"><b>Papéis:</b> todos os tipos são recicláveis, inclusive caixas do tipo longa-vida e de papelão. Eles devem estar secos e podem ser dobrados, mas não amassados, já que quanto mais intacto, maior o valor do papel para a reciclagem - ao amassar uma folha, você afeta as fibras de celulose, prejudicando seu valor comercial para reciclagem. Não recicle papel com material orgânico, como caixas de pizza cheias de gordura, pontas de cigarro, fitas adesivas, fotografias, papéis sanitários e papel-carbono.</p>
+		<p class="clear"><b>Plásticos:</b> 90% do lixo produzido no mundo são à base de plástico. Por isso, esse material merece uma atenção especial. Recicle sacos de supermercados, garrafas de refrigerante (pet), tampinhas e até brinquedos quebrados.</p>
+		<p class="clear"><b>Vidros:</b> quando limpos e secos, todos são recicláveis, exceto lâmpadas, cristais, espelhos, vidros de automóveis ou temperados, cerâmica e porcelana. Embrulhe vidros quebrados e outros materiais cortantes em papel grosso (do tipo jornal) ou coloque em uma caixa para evitar acidentes. Garrafas e frascos não devem ser misturados com os vidros planos.</p>
+		<p class="clear"><b>Metais:</b> além de todos os tipos de latas de alumínio, é possível reciclar tampinhas, pregos e parafusos. Atenção: clipes, grampos, canos e esponjas de aço devem ficar de fora.</p>
+		<p class="clear"><b>Isopor:</b> ao contrário do que muita gente pensa, o isopor é reciclável. No entanto, esse processo não é economicamente viável. Por isso, é importante usar o isopor de diversas formas e evitar ao máximo o seu desperdício. Quando tiver que jogar fora, coloque na lixeira de plásticos. Algumas empresas transformam em matéria-prima para blocos de construção civil.</p>
+		<p class="clear">É recomendável diminuir o máximo possível o uso de materiais que não entram como recicláveis, mas caso seja necessário eles devem ser colocados em uma sacola biodegradável e descartados na coleta de lixo para irem ao aterro sanitário.</p>
+		<p class="clear">As cores padrão para representar cada tipo de material são azul para papel, vermelho para plástico, verde para vidro, amarelo para metal, marrom para orgânico e cinza para não reciclável. Também há cores para materiais que não usamos normalmente em casa, sendo preto para madeira, laranja para perigoso ou contaminado, branco para lixo hospitalar e roxo para radioativos.</p>
+
+		<!-- botão que exibe as curiosidades -->
+		<button title="Clique para mostrar/ocultar curiosidades" type="button" onclick="if(document.getElementById('exibirCuriosidades') .style.display=='none') {document.getElementById('exibirCuriosidades') .style.display=''}else{document.getElementById('exibirCuriosidades') .style.display='none'}">CURIOSIDADES</button>
+			<div id="exibirCuriosidades" style="display:none">
+				<!-- botão fechar -->
+				<img src="imagens/fechar.svg" onclick="document.getElementById('exibirCuriosidades') .style.display='none'" alt="fechar" style="width: 30px; padding-left: 10px; padding-top: 10px; cursor: pointer">
+				<ul style="padding-right: 10px">
+					<li>A reciclagem de uma única lata de alumínio economiza energia suficiente para manter uma TV ligada durante três horas.</li>
+					<li>Cada 100 toneladas de plástico reciclado economizam 1 tonelada de petróleo.</li>
+					<li>Um quilo de vidro quebrado faz 1kg de vidro novo e pode ser infinitamente reciclado.</li>
+					<li>O lacre da latinha não vale mais e não deve ser vendido separadamente. As empresas reciclam a lata com ou sem o lacre. Isso porque o anel é pequeno e pode se perder durante o transporte.</li>
+					<li>Para produzir 1 tonelada de papel é preciso 100 mil litros de água e 5 mil KW de energia. Para produzir a mesma quantidade de papel reciclado, são usados apenas 2 mil litros de água e 50% da energia.</li>
+				</ul>
+			</div>
+
+			<img class="imgCoresReciclaveis" src="imagens/coresReciclagem.png" alt="Cores da reciclagem">
+	</section>
+
+	<!-- seção ensinando a fazer adubo -->
+	<section id="adubo">
+		<h2>Como fazer adubo?</h2>
+		<p>Além do lixo reciclável que produzimos em casa, há também o lixo orgânico (ou úmido). Nele entram os restos de alimentos, borra de café, saquinhos de chá, papel higiênico, entre outros. Uma parte desse lixo pode ser usada para fazer adubo orgânico, também conhecido como compostagem. Lembrando que a parte não usada no adubo deve ser juntada, colocada em uma sacola biodegradável e descartada corretamente na coleta de lixo.</p>
+		<p>Antes de aprendermos a fazer o adubo, vamos ver alguns benefícios do mesmo. O resíduo orgânico, quando descartado em aterros e lixões, junto com materiais tóxicos como pilhas e remédios, acabam produzindo efluentes que contaminam solos, lençóis freáticos e a atmosfera, agravando a qualidade de vida. Além de ocuparem uma grande quantidade de espaços, os resíduos sem tratamento acabam produzindo gás metano, que é cerca de 25 vezes mais prejudicial para o efeito estufa do que o gás carbônico. Se todo o resíduo orgânico que é produzido no Brasil fosse tratado com compostagem seria possível evitar emissões de gás metano, produzir cerca de 37,5 toneladas de húmus (adubo) por ano, reduzir os espaços ocupados em aterros e lixões e também a poluição de solos, lençóis freáticos e da atmosfera.</p>
+		<p>Além de proporcionar essas vantagens para o ambiente, adquirir uma composteira pode trazer benefícios pessoais. Um estudo (<a href="https://www.discovermagazine.com/mind/is-dirt-the-new-prozac" target="_blanck">clique aqui</a>) mostrou que o contato com uma bactéria presente no húmus funciona como um antidepressivo, diminui alergias, dor e náusea.</p>
+		<p>Agora, vamos aprender a fazer a compostagem:</p>
+		<p><b>1)</b> Pegue dois recipientes que tenha em casa. Podem ser baldes, vasilhas de sorvete, latas de tinta. O tamanho fica a seu critério, pegue um recipiente maior para fazer mais adubo e um menor para fazer menos. Embaixo de um dos recipientes faça furos embaixo para que o chorume (líquido liberado no processo) possa escorrer e furos em cima para a entrada de ar. Coloque o recipiente furado acima do outro, sem que o fundo do furado encoste no fundo do outro, pois o chorume deve pingar para não ficar em contato com o adubo.</p>
+		<p><b>2)</b> No recipiente furado comece colocando um pouco de terra ou serragem e depois adicione uma camada de resíduos orgânicos, como as cascas de frutas, borra de café, restos de verduras, entre outros. Depois coloque uma camada de material seco, como folhas secas, serragem e papelão. Vá intercalando entre uma camada de resíduo orgânico e uma de material seco até encher o recipiente. É recomendável adicionar uma nova camada (de composto orgânico + material seco) a cada 15 dias (nesse intervalo, guarde os restos dos alimentos na geladeira, dentro de um pote fechado), mexendo o material que já estava na composteira antes de adicionar as novas camadas. É importante que a última camada (que vai ficar exposta) seja sempre seca para evitar mau cheiro. Mantenha sempre tampado para evitar a entrada de bichos. Quando o recipiente já estiver cheio, você pode colocar outro por cima fazendo o mesmo processo. Dependendo do tempo que você demorar para enchê-los, o adubo do primeiro recipiente já estará pronto quando você encher o segundo. É possível colocar minhocas para adiantar o processo.</p>
+		<p><b>3)</b> O adubo orgânico pode levar de dois a três meses para ficar pronto, mas tudo vai depender da quantidade de lixo utilizado. Para saber se a mistura está pronta para uso, preste atenção no cheiro, na textura, na temperatura e na cor. O fertilizante natural tem cheiro de terra e não suja a mão. Ele não pode estar quente e deve ter a coloração marrom escuro.</p>
+		<img class="coluna imgComposteira" src="imagens/composteira.jpg" alt="Composteira">
+		<img class="coluna imgOquePodeIr" src="imagens/residuosComposteira.jpg" alt="O que pode colocar: frutas, legumes, verduras, sachês de chá, borra de café, casca de ovo. O que pode colocar com moderação: frutas cítricas, alimentos cozidos, guardanapos, flores e ervas. O que não pode colocar: carnes, limão, líquidos, temperos fortes, óleos, fezes, papel higiênico.">
+		<h3 class="clear">O que fazer com o chorume?</h3>
+		<hr>
+		<div class="alinharMeioDiv">
+			<p class="coluna textoChorume">Diferente do chorume produzido em aterros e lixões, o chorume da composteira doméstica não é tóxico, mas, por se tratar de um líquido muito ácido, o chorume deve ser diluído para sua utilização como biofertilizante em jardins, vasos e hortas. Para utilizá-lo como fertilizante de solo, é preciso dissolver cada parte de chorume em dez partes de água (100ml de chorume para 1 litro de água, por exemplo). Para utilizá-lo como pesticida natural, dissolva chorume em água na proporção de meio a meio e borrife nas folhas dos vegetais no final da tarde, para não haver queimadura de sol nas plantas. Em ambos os processos é necessário deixar descansar por três dias antes de usar, agitando bastante uma vez por dia.</p>
+			<div class="coluna imgRegador">
+				<img style="width: 100%; border-radius: 5px" src="imagens/regador.jpeg" alt="regador">
+			</div>
+		</div>
+	</section>
+
+	<!-- seção sobre a coleta seletiva -->
+	<section id="coletaSeletiva">
+		<h2>Coleta Seletiva em Poços de Caldas</h2>
+		<!-- vídeo da coleta -->
+		<div style="margin-top: 10px" class="coluna duas">
+			<video style="border-radius: 5px; width: 100%; margin-bottom: 10px" controls>
+				<source src="videos/coletaSeletiva.mp4" type="video/mp4">
+				Seu navegador não suporta tags de vídeo.
+			</video>
+		</div>
+		<div class="coluna duas">
+			<p style="padding-top: 0; padding-bottom: 3px; margin-bottom: 0; margin-top: 0">Agora que já sabemos separar o lixo reciclável e úmido (usado no adubo), devemos descartá-los de maneira correta e separadamente. A coleta de lixo Reciclável e Úmido ocorre em dias diferentes da semana em Poços de Caldas/MG. Abaixo você confere os dias em que a coleta ocorre no seu bairro (pressione ctrl+F para pesquisar o nome do seu bairro e achar mais facilmente), lembrando que:</p>
+			<img class="imgLixoReciclavelUmido" src="imagens/lixoReciclavelUmido.png" alt="Lixo Reciclável e Úmido">
+		</div>
+		<br>
+		<!-- botão para exibir a tabela -->
+		<button class="botaoColeta" title="Clique para mostrar/ocultar" type="button" onclick="if(document.getElementById('exibirColeta') .style.display=='none') {document.getElementById('exibirColeta') .style.display=''}else{document.getElementById('exibirColeta') .style.display='none'}">CLIQUE AQUI PARA EXIBIR OS DIAS DA COLETA</button>
+			<div id="exibirColeta" class="alinharMeioDiv" style="display:none; text-align: center">
+			<!-- botão fechar -->
+			<img src="imagens/fechar.svg" onclick="document.getElementById('exibirColeta') .style.display='none'" alt="fechar" style="width: 30px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; cursor: pointer">
+			<!-- tabela com os dias da coleta -->
+			<table class="tabela" border="1" cellspacing="0" cellpadding="0" align="center">
+				<tr bgcolor="#5ddeb3">
+					<th>Bairro</th>
+					<th>Lixo Úmido</th>
+					<th>Lixo Reciclável</th>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Centro</td>
+					<td>Diariamente de noite</td>
+					<td>Terça e Sexta de manhã</td>
+				</tr>
+				<tr>
+					<td>Parque Véu das Noivas</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Vila Olímpica</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Jardim Elizabete</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Vila Togni</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Jardim Elvira Dias</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Country Club I, II e III</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Jardim dos Manacás</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Doutor Ottoni</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Residencial São Bernado</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Residencial Portal do Sol</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Jardim Carolina</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Maria Imaculada</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Campo das Antas</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Campo das Aroeiras</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Centreville</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Parque San Carlo</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Residencial Pitangueiras</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>São Geraldo</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Jardim Novo Mundo</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Nova Europa</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>Jardim Europa</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Santa Ângela I ao IV</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>Jardim Vitória I ao V</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Residencial Morumbi</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>Santa Maria</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Santa Augusta</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>Jardim Planalto</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Chácara dos Cravos</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Vila Cruz</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Gama Cruz</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>Vila Rica</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>São Jorge</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>Santa Helena</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Esmeralda</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Vila Guaporé</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim América</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Bela Vista</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Vila Líder</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>Jardim Filipino</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Quissisana</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>Centenário</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>São José</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>Distrito Industrial</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Kennedy I e II</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>Jardim Aeroporto</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Parque das Nações</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Cohab</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Vila Matilde</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>São Sebastião I e II</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Ginásio</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>São Domingos</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Marçal Santos</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr>
+					<td>João Pinheiro</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Quinta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Village São Luiz</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Terça</td>
+				</tr>
+				<tr>
+					<td>Cristiano Ozório</td>
+					<td>Segunda, Quarta e Sexta</td>
+					<td>Segunda</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>São Benedito</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr>
+					<td>Jardim Santa Rita</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim São Paulo</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr>
+					<td>Alto da Boa Vista</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Parque Vivaldi Leite Ribeiro</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr>
+					<td>Cascatinha</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Del Rei</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr>
+					<td>Santa Lúcia</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Residencial Mantiqueira</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr>
+					<td>Caio Junqueira</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Residencial Greenville</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr>
+					<td>Jardim Ipê</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Santa Rosália I e II</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr>
+					<td>José Carlos</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>São João</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr>
+					<td>Vila Nova</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Aparecida</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr>
+					<td>Monte Almo</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Regina</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr>
+					<td>Bem Bastos</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Vila Menezes</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr>
+					<td>Santa Emília</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Nova Aparecida</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr>
+					<td>Santo André</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Campo do Retirinho</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr>
+					<td>Residencial Monte Verde</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Boa Esperança</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr>
+					<td>Augusto Almeida</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Dom Bosco</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr>
+					<td>Parque Nova Aurora</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Formosa</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr>
+					<td>Acácias</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim das Hortências</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr>
+					<td>Jardim das Azaléias</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Montreal</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr>
+					<td>Jardim Amaryllis</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Sexta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Chácara Alvorada</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr>
+					<td>Jardim Colina</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Estancia São José</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr>
+					<td>Residencial Santa Clara</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Philadelphia</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr>
+					<td>Residencial Santa Clara II</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Brasil</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr>
+					<td>Parque Primavera</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Santa Filomena</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr>
+					<td>Jardim Philadelphia II</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Quarta</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Campos Elísios</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr>
+					<td>Residencial Nova Primavera</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Caldense</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr>
+					<td>Parque Pinheiros</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Itamaraty I ao V</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr>
+					<td>Jardim Contorno</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim Paraíso</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr>
+					<td>Jardim Daniele</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Parque Esperança I ao III</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr>
+					<td>Jardim Santa Tereza</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim São Bento</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr>
+					<td>Residencial Tiradentes</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr class="corCelulaTabela">
+					<td>Jardim dos Estados</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+				<tr>
+					<td>Jardim Santana</td>
+					<td>Terça, Quinta e Sábado</td>
+					<td>Segunda</td>
+				</tr>
+			</table>
+		</div>
+		<h3 class="clear">Pontos de Entrega Voluntária - Coleta Seletiva</h3>
+		<div class="coluna duas">
+			<img style="width: 100%; border-radius: 5px" src="imagens/pev.jpg" alt="Ponto de entrega voluntária da coleta seletiva">
+		</div>
+		<p class="coluna duas" style="padding-bottom: 10px; padding-top: 10px">Em Poços de Caldas/MG há PEVs (Pontos de Entrega Voluntária) espalhados pela cidade para que as pessoas possam deixar os produtos recicláveis caso esqueça de colocar no dia que passa a Coleta Seletiva em sua região. Os containers são divididos em papelão, papel comum, vidro, metal e plástico e são como este da figura. Pilhas e baterias também devem ser levadas até um PEV. Abaixo você confere a localização das PEVs:</p>
+
+		<!-- botão que exibe os mapas -->
+		<button class="botaoPEV" title="Clique para mostrar/ocultar" type="button" onclick="if(document.getElementById('exibirPEV') .style.display=='none') {document.getElementById('exibirPEV') .style.display=''}else{document.getElementById('exibirPEV') .style.display='none'}">CLIQUE AQUI PARA EXIBIR OS PEVs</button>
+		<div id="exibirPEV" style="display:none">
+			<!-- botão fechar -->
+			<div class="clear" style="width: 100%">
+				<img src="imagens/fechar.svg" onclick="document.getElementById('exibirPEV') .style.display='none'" alt="fechar" style="width: 30px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; cursor: pointer">
+			</div>
+			<div class="coluna tresMapa clear">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1845.0817177710742!2d-46.54436730567261!3d-21.803434487487976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9dd32d0a6f24b%3A0x1052afb163f45a35!2sR.%20Saul%20do%20Prado%20Brand%C3%A3o%2C%20161%20-%20Parque%20Nova%20Aurora%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1595980452915!5m2!1spt-BR!2sbr"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" height="50%"></iframe>
+				<p>PEV em frente à Escola Municipal Professora Edir Frayha, no bairro Nova Aurora.</p>
+			</div>
+
+			<div class="coluna tresMapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.1948546910976!2d-46.49457518542708!3d-21.811401005183587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9e846a770a3a5%3A0x4cc2395757ab487e!2sR.%20Cinco%20-%20Regi%C3%A3o%20Urbana%20Homog%C3%AAnea%20XXV%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1595981099613!5m2!1spt-BR!2sbr" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<p>PEV ao lado do Centro de Esportes e Artes Unificado - CEU, nas Chácaras Poços de Caldas.</p>
+			</div>
+
+			<div class="coluna tresMapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.199943658359!2d-46.56786668542629!3d-21.849822106500923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9c3a78b0ae621%3A0x773ded03d372132d!2sR.%20L%C3%ADbano%2C%20499%20-%20Parque%20das%20Nacoes%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG%2C%2037706-188!5e0!3m2!1spt-BR!2sbr!4v1595981932968!5m2!1spt-BR!2sbr" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<p>PEV em frente à Escola Padrão, no Parque das Nações.</p>
+			</div>
+
+			<div class="coluna tresMapa clear">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d926.2027068621599!2d-46.54721749965452!3d-21.78758130024975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9dd231c5023eb%3A0xfa9e02ad5a47aeb7!2sTv.%20Maria%20Am%C3%A9lia%20de%20Souza%20-%20Regi%C3%A3o%20Urbana%20Homog%C3%AAnea%20XVIII%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1595982267781!5m2!1spt-BR!2sbr" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<p>PEV em frente ao Terminal de Linhas Urbanas da Vila Nova, perto do supermercado Bretas.</p>
+			</div>
+
+			<div class="coluna tresMapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.7108631035258!2d-46.602392289657324!3d-21.791448611317893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9db7ba5d83841%3A0x73834e4eb06bfc50!2sAv.%20Monsenhor%20Alderige%20-%20Jardim%20Country%20Club%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG%2C%2037704-284!5e0!3m2!1spt-BR!2sbr!4v1595983339222!5m2!1spt-BR!2sbr" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<p>PEV na Avenida Monsenho Alderige em frente ao Condomínio Ville de France, no Jardim Country Club.</p>
+			</div>
+
+			<div class="coluna tresMapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.557010815245!2d-46.57255258542753!3d-21.79739940470403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9dcc11527c343%3A0x3262016ad0a3f5f9!2sAv.%20Irradia%C3%A7%C3%A3o%2C%20107%20-%20Jardim%20Quisisana%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG%2C%2037701-256!5e0!3m2!1spt-BR!2sbr!4v1595984407277!5m2!1spt-BR!2sbr" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<p>PEV na Avenida Irradiação, Jardim Quisisana, em frente ao número 107.</p>
+			</div>
+
+			<div class="coluna tresMapa clear">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.718689324863!2d-46.5616668854267!3d-21.82979740581415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9c31f3494d2d1%3A0x51b73816b2815dd!2sR.%20Rovilson%20Eg%C3%ADdio%2C%20215%20-%20Jardim%20Esperanca%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG%2C%2037713-135!5e0!3m2!1spt-BR!2sbr!4v1595984628415!5m2!1spt-BR!2sbr" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<p>PEV em frente a Escola Vitalina Rossi, no Parque Esperança.</p>
+			</div>
+
+			<div class="coluna tresMapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.7701515299927!2d-46.59034528542762!3d-21.789155004421794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9dc84a759bbdd%3A0x8033d5e75b5fedb4!2sAv.%20Francisco%20Jesualdi%20-%20Jardim%20Novo%20Mundo%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG%2C%2037701-346!5e0!3m2!1spt-BR!2sbr!4v1595984854275!5m2!1spt-BR!2sbr" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<p>PEV em frente ao Centro Cultural Chico Rei, no Jardim Novo Mundo.</p>
+			</div>
+
+			<div class="coluna tresMapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59977.41208533007!2d-46.60835445437665!3d-21.759658592989272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9dbf160764b63%3A0x48890933579d6d93!2sAv.%20Silvio%20Monteiro%20dos%20Santos%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1595985232479!5m2!1spt-BR!2sbr" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<p>PEV no Córrego Dantas, Zona Rural, em frente a venda.</p>
+			</div>
+		</div>
+
+		<h3 class="clear">Pontos de Descarte de Lâmpadas Fluorescentes</h3>
+		<p>Há três pontos para entrega de lâmpadas mercuriais usadas em Poços de Caldas/MG, que permitem à população encaminhar corretamente esses resíduos perigosos. As lâmpadas devem ser entregues inteiras e embaladas em caixas de papelão, se possível. Os pontos funcionam de segunda a sexta, das 8h às 12h, nos seguintes endereços:</p>
+
+		<!-- botão que exibe os mapas dos pontos de coleta das lâmpadas -->
+		<button class="botaoColeta" title="Clique para mostrar/ocultar" type="button" onclick="if(document.getElementById('exibirPCL') .style.display=='none') {document.getElementById('exibirPCL') .style.display=''}else{document.getElementById('exibirPCL') .style.display='none'}">CLIQUE AQUI PARA EXIBIR OS PONTOS DE COLETA</button>
+		<div id="exibirPCL" style="display:none">
+			<div class="clear" style="width: 100%">
+				<!-- botão fechar -->
+				<img src="imagens/fechar.svg" onclick="document.getElementById('exibirPCL') .style.display='none'" alt="fechar" style="width: 30px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; cursor: pointer">
+			</div>
+			<div class="coluna tresMapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.8024427240384!2d-46.54023938542761!3d-21.787905704379064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9dd392ca91f87%3A0xe841cc411339138b!2sAv.%20Ver.%20Reinaldo%20Figueiredo%20Bastos%20-%20Res.%20Torre%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1595986443952!5m2!1spt-BR!2sbr" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<p>Zona Leste - Avenida Vereador Reinaldo Figueiredo Bastos, 31 - Residencial Torres</p>
+				<img class="icone" src="imagens/iconeTelefone.svg" alt="Ícone de telefone"> (35) 3697-2236
+			</div>
+		    
+		    <div class="coluna tresMapa">
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.7666232480647!2d-46.59178647482826!3d-21.78929150446602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9dc825edff697%3A0x6af9224da34eadd7!2sR.%20S%C3%A3o%20Jos%C3%A9%2C%20457%20-%20Country%20Club%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG%2C%2037701-353!5e0!3m2!1spt-BR!2sbr!4v1595986815918!5m2!1spt-BR!2sbr" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			    <p>Zona Oeste - Rua São José, 457 - Country Club, perto da ADEFIP</p>
+			    <img class="icone" src="imagens/iconeTelefone.svg" alt="Ícone de telefone"> (35) 3697-2073
+			</div>
+		    
+		    <div class="coluna tresMapa">
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.0130531654736!2d-46.56902558542601!3d-21.85703220674843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9c3a5020ebb1f%3A0x3f3814c01a6c01f1!2sR.%20Jo%C3%A3o%20Saveri%20de%20Simoni%2C%2070%20-%20Jardim%20Bandeirantes%2C%20Po%C3%A7os%20de%20Caldas%20-%20MG%2C%2037706-240!5e0!3m2!1spt-BR!2sbr!4v1595987022748!5m2!1spt-BR!2sbr" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			    <p>Zona Sul - Rua João Saveri de Simoni, 70, perto do supermercado São Sebastião</p>
+			    <img class="icone" src="imagens/iconeTelefone.svg" alt="Ícone de telefone"> (35) 3712-9952
+		    </div>
+		</div>
+	</section>
+
+	<!-- seção sobre o descarte de óleo -->
+	<section id="descarteOleo">
+		<h2>Descarte correto de Óleo de Cozinha</h2>
+		<div class="coluna duas">
+			<img style="width: 100%; border-radius: 5px" src="imagens/logoCoopergore.png" alt="Logo da Coopergore">
+		</div>
+		<div class="coluna duas">
+			<p>Há dois principais motivos para que você recicle seu óleo de cozinha usado ao invés de descartá-lo em qualquer lugar:</p>
+			<ul>
+				<li>No encanamento das residências existe um equipamento chamado caixa de gordura, que armazena gordura proveniente das pias. O descarte de óleo de cozinha usado na pia provocará o entupimento dos encanamentos e acúmulo de gordura na caixa citada. Quando isso ocorre, é necessário um processo trabalhoso para limpá-la, além de realizar o mesmo processo nos encanamento. Ou seja, vai sair caro.</li>
+				<li>Uma parte do óleo descartado na pia pode seguir pelo esgoto e contaminar rios. 1 litro de óleo pode contaminar 20.000 litros de água! E jogar o óleo na terra também é tão prejudicial quanto, uma vez que esse óleo pode chegar nos lençóis freáticos (reservatórios de água presente nas partes subterrâneas da Terra).</li>
+		    </ul>
+		    <p>Mas então como reciclar o óleo usado? Primeiro, você deve colocar o óleo usado (frio) em uma garrafa PET e tampar bem. Quando encher algumas garrafas, procure empresas e ONGs especializadas neste tipo de coleta seletiva, assim como postos de entrega voluntária para descartar o seu óleo de forma correta.</p>
+	    </div>
+	    <p class="clear padding10">Aqui em Poços de Caldas/MG você deve entregar seu óleo para a Coopergore, a única cooperativa autorizada a recolher óleo de cozinha usado. E é formada apenas por mulheres! Entre em contato pelo Facebook ou pelos telefones abaixo.</p>
+
+	    <!-- ícones do facebook e telefone -->
+	    <div class="coluna">
+		    <a href="https://pt-br.facebook.com/coopergorepocos/" target="_blanck"><img class="iconeAumenta" src="imagens/iconeFacebook.png" alt="Ícone Facebook clicável"> <div class="marginNegativa">Coopergore Poços</div></a>
+		</div>
+
+		<div class="coluna">
+	    	<img class="icone" src="imagens/iconeTelefone.svg" alt="Ícone de telefone"> (35) 3714-3230
+	    </div>
+
+	    <div class="coluna">
+	    	<img class="icone" src="imagens/iconeTelefone.svg" alt="Ícone de telefone"> (35) 98862-6665
+	    </div>
+	</section>
+
+	<!-- seção sobre as denúncias -->
+	<section id="denuncia">
+		<h2>Denúncias</h2>
+		<p class="padding10">Nós podemos ajudar a cuidar do patrimônio de nossa cidade. Caso saiba de uma situação irregular você pode fazer uma denúncia, anônima ou não. Por exemplo, ocupação irresponsável de um lugar, degradação do meio público, descarte irresponsável de lixo, entre outros. Para fazer uma denúncia em Poços de Caldas você pode usar o canal eOuve ou o Portal do Cidadão:</p>
+
+		<div class="coluna">
+			<a href="https://eouve.com.br/" target="_blanck"><img class="iconeAumenta" src="imagens/iconeDenuncia.png" alt="Ícone de Denúncia clicável"> <div class="marginNegativa">eOuve</div></a>
+		</div>
+
+		<div class="coluna">
+			<a href="http://transparencia.pocosdecaldas.mg.gov.br:8081/portalcidadao/#78c3e513dd43cb27d8a3e2f376196ffc656d7ea577b2c6fb66f39526f7fd148796c4ece6cb54625949f2da7ec3e0718c20209f1945bae6b6592563128ed9ba43c479f21f04a1fe210211477bf64c8700d20297ca039ea77029a5d04e6cb263b4b091f828d8de315e089859d502f0df2eda36a5a65f4e643ab547e01ae78350f3ce7789df15580178fb6d7c3bca9a9be623922919ade79df1f45dd1db9eddc3fc265a24a30aeba1b3995b6917eca376830fd20224ea1551973f2e8f8251630cbb41f2b5d0ebe0312d" target="_blanck"><img class="iconeAumenta" src="imagens/iconeDenuncia.png" alt="Ícone de Denúncia clicável"> <div class="marginNegativa">Portal do Cidadão</div></a>
+		</div>
+		<br>
+		<p class="padding10 clear" style="margin-top: 0">Porém, a denúncia pode ser urgente. Por exemplo, você está vendo alguém quebrando parte de uma praça, está presenciando uma situação de maus tratos ou ainda uma agressão. Para ser atendido mais rapidamente e dependendo da gravidade você pode ligar para a Guarda Municipal, disque denúncia ou para a polícia:</p>
+		<div class="coluna">
+			<img class="icone" src="imagens/iconeTelefone.svg" alt="Ícone de telefone"> 153 (Guarda Municipal)
+	    </div>
+	    <div class="coluna">
+	    	<img class="icone" src="imagens/iconeTelefone.svg" alt="Ícone de telefone"> 181 (Disque denúncia)
+	    </div>
+	    <div class="coluna">
+	    	<img class="icone" src="imagens/iconeTelefone.svg" alt="Ícone de telefone"> 190 (Polícia)
+	    </div>
+	</section>
+
+	<!-- seção sobre adoção -->
+	<section id="adocao" style="padding-bottom: 10px">
+		<h2>Adoção de Animais</h2>
+		<div class="coluna duas" style="margin-top: 30px">
+			<img style="width: 100%; border-radius: 5px" src="imagens/adote.jpg" alt="Cachorro para adoção">
+		</div>
+
+		<div class="coluna duas">
+			<p>Agora que já sabemos como ter uma melhor harmonia com a Natureza, que tal ter um melhor amigo?</p>
+			<p>Em Poços de Caldas/MG há protetoras de animais que os resgatam das ruas e cuidam até encontrarem um lar. Elas não recebem nenhum tipo de ajuda governamental ou de empresas (exceto a Nutrire que doa ração), então as doações são muito importantes para que elas consigam continuar ajudando os animais.</p>
+			<p>Há cachorros e gatos procurando por uma família, que tal adotar um? Mas lembre-se, animais demandam cuidados, então só adote se tiver condições de manter. A situação está difícil e não pode adotar agora? Você pode apadrinhar um (ou mais) animais! Para ser padrinho basta contibuir com uma quantia por mês para os cuidados do animal e ainda recebe fotos exclusivas para acompanhar o afilhado! Caso ainda fique difícil, uma pequena quantia de vez em quando já ajuda muito! Entre em contato e saiba mais:</p>
+
+			<div class="coluna">
+				<a href="https://www.facebook.com/movimentonaspatinhas/" target="_blanck"><img class="iconeAumenta" src="imagens/iconeFacebook.png" alt="Ícone Facebook clicável"> <div class="marginNegativa">Movimento nas Patinhas</div></a>
+			</div>
+			<div class="coluna">
+				<a href="https://pt-br.facebook.com/uniaomovimentoanimal/" target="_blanck"><img class="iconeAumenta" src="imagens/iconeFacebook.png" alt="Ícone Facebook clicável"> <div class="marginNegativa">União Movimento Animal</div></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- rodapé -->
+	<footer>
+		<div class="alinharMeioDiv">
+			<div class="coluna caixaFooter">
+				<img class="iconeFooter" src="imagens/iconeEndereco.svg" alt="ícone endereço">
+				<p class="tituloFooter">Endereço</p>
+				<hr>
+				<address>Rua Camalia - Terra</address>
+			</div>
+
+			<div class="coluna caixaFooter">
+				<img class="iconeFooter" src="imagens/iconeEmail.svg" alt="ícone email">
+				<p class="tituloFooter">E-mail</p>
+				<hr>
+				<address>camalia@camalia.com</address>
+			</div>
+			<div class="coluna caixaFooter">
+				<img class="iconeFooter" src="imagens/iconeCelular.svg" alt="ícone celular">
+				<p class="tituloFooter">Telefone</p>
+				<hr>
+				<address>(35) 99999-9999</address>
+			</div>
+		</div>
+		<p class="clear" style="text-align: center">&copy; 2020 Copyright Camalia</p>
+	</footer>
+</body>
+</html>
